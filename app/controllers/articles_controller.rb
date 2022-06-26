@@ -14,7 +14,7 @@ class ArticlesController < ApplicationController
 
   #salva as infos
   def create
-    @article = Article.new(title: "...", body: "...")
+    @article = Article.new(article.params)
 
     if @article.save
       redirect_to @article
