@@ -2,12 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Quicksand:wght@300;400;500;600;700&family=Rubik+Glitch&family=Ultra&display=swap');
+
+
 
 @layer components {
-  .btn-primary {
-    @apply py-2 px-4 bg-blue-200;
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    padding: 2%;
+    min-height: 60vh;
+  }
+  .teste {
+    font-family: 'Rubik Glitch', cursive;
+    color: rgb(189, 224, 254);
+    font-size: 4.5rem;
   }
 }
 
-*/
+
